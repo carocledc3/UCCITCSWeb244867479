@@ -1,3 +1,1 @@
-Romeo's Github repository for 402WT/Web Technologies Projects
-
-University of the Cordilleras/Arhanagion Cordilierit, T40
+Repository for 402WT/CIT14 stuff -- Romeo DC -- University of the Cordilleras
