@@ -1,0 +1,41 @@
+
+body {
+    font-family: system-ui;
+    background-attachment: fixed;
+    height: 100%;
+    background: linear-gradient(to bottom, white, #f0f0fe);
+}
+h1 {
+    color: blue
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: #0000ff40;
+    height: auto;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    color: black;
+    max-width: 2in;
+    text-align: center;
+    transition: background 0.5s, font-weight 1s, font-size 0.5s, content 1s;
+}
+
+.item:hover {
+    background: #0000ff80;
+    font-weight: 900;
+}
+
+.evil-item:hover {
+    background: #ff000080;
+    font-size: 2em;
+}
+
+.evil-item:hover::before {
+    content: 'EVIL ';
+}
